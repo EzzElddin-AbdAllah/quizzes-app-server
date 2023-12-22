@@ -1,4 +1,5 @@
 const Quiz = require("../models/quizModel");
+const getNextQuizId = require("../services/quizService");
 
 async function getQuizById(req, res) {
 	try {

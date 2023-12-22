@@ -5,6 +5,4 @@ async function getNextQuizId() {
 	return latestQuiz ? latestQuiz.id + 1 : 1;
 }
 
-module.exports = {
-	getNextQuizId,
-};
+module.exports = getNextQuizId;

@@ -9,6 +9,4 @@ async function getNextAnnouncementId() {
 	return latestAnnouncement ? latestAnnouncement.id + 1 : 1;
 }
 
-module.exports = {
-	getNextAnnouncementId,
-};
+module.exports = getNextAnnouncementId;
